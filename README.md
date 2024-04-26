@@ -24,7 +24,7 @@ Users should be able to see hover and focus states for all interactive elements 
 
 ### Screenshot
 
-![Screenshot](assets\images\sociallinksprofile.png)
+![Screenshot](assets/images/sociallinksprofile.png)
 
 ### Links
 
