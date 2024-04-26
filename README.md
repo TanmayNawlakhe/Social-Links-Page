@@ -28,8 +28,8 @@ Users should be able to see hover and focus states for all interactive elements 
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/TanmayNawlakhe/Social-Links-Page)
-- Live Site URL: [Live site URL here](https://social-links-page-kappa.vercel.app/)
+- Solution URL: [https://github.com/TanmayNawlakhe/Social-Links-Page](https://github.com/TanmayNawlakhe/Social-Links-Page)
+- Live Site URL: [https://social-links-page-kappa.vercel.app](https://social-links-page-kappa.vercel.app/)
 
 ## My Process
 
