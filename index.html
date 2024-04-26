@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="assets/fonts/Inter-VariableFont_slnt,wght.ttf">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    @font-face {
+      font-family: 'inter';
+      src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction: column;
+      gap: 30px;
+      font-family:'inter';
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 12%);
+      width: 270px;
+      height: fit-content;
+      padding: 40px 30px 15px 30px;
+      margin: 60px 0 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 15px;
+    }
+
+    .card img {
+      width: 90px;
+      border-radius: 90px;
+    }
+
+    .card h1 {
+      margin: 20px 0 4px 0;
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      font-size:x-large;
+    }
+
+    .card h2 {
+      margin: 8px 0 13px 0;
+      color: hsl(75, 94%, 57%);
+      font-size: small;
+      font-weight: 600;
+    }
+
+    .card p {
+      color: rgba(245, 245, 245, 0.786);
+      padding-bottom: 8px;
+      font-size: small;
+    }
+
+    .btnn {
+      font-size:medium;
+      margin: 0 0 13px 0;
+      height: 45px;
+      background-color: hsl(0, 0%, 20%);
+      color: rgba(245, 245, 245, 0.786);
+      font-weight: 700;
+      width: 100%;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btnn:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+      cursor:pointer;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img
+      src="C:\Users\TANMAY\Downloads\social-links-profile-main\social-links-profile-main\assets\images\avatar-jessica.jpeg">
+    <h1> Jessica Randall </h1>
+    <h2> London, United Kingdom </h2>
+    <p> "Front-end developer and avid reader." </p>
+    <div class="btnn" onclick="window.location.href='#'"> GitHub </div>
+    <div class="btnn" onclick="window.location.href='#'"> Frontend Mentor </div>
+    <div class="btnn" onclick="window.location.href='#'"> LinkedIn </div>
+    <div class="btnn" onclick="window.location.href='#'"> Twitter </div>
+    <div class="btnn" onclick="window.location.href='#'"> Instagram </div>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/tanmay-nawlakhe">Tanmay Nawlakhe</a>.
+  </div>
+</body>
+
+</html>
